@@ -1,0 +1,70 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+  height: 100%;
+}
+.text_wrapper {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.text_wrapper h1 {
+  font-size: 4rem;
+  color: #fff;
+  text-shadow: 4px 4px 15px rgba(150, 150, 150, 0.83);
+}
+
+/*For 1600px Screen Resulation*/
+@media screen and (max-width: 1600px){
+
+  .text_wrapper h1 {
+    font-size: 4.5rem;
+    color: #fff;
+    /* margin-left: 25px; */
+    text-shadow: 4px 4px 15px rgba(150, 150, 150, 0.83);
+  }
+}
+
+
+/*For 1300px Screen Resulation*/
+@media screen and (max-width: 1300px){
+
+  .text_wrapper h1 {
+    font-size: 4rem;
+    color: #fff;
+    /* margin-left: 25px; */
+    text-shadow: 4px 4px 15px rgba(150, 150, 150, 0.83);
+  }
+}
+
+
+/*For 960px Screen Resulation*/
+@media screen and (max-width: 960px){
+
+.text_wrapper h1 {
+  font-size: 3.3rem;
+  color: #fff;
+  /* margin-left: 25px; */
+  text-shadow: 4px 4px 15px rgba(150, 150, 150, 0.83);
+}
+}
+
+
+/*For 720px size*/
+@media screen and (max-width: 720px) {
+
+.text_wrapper h1 {
+  font-size: 3rem;
+  color: #fff;
+  /* margin-left: 25px; */
+  text-shadow: 4px 4px 15px rgba(150, 150, 150, 0.83);
+}
+
+}
+.container {
+  min-height: 500px;
+  background: black;
+}

@@ -1,0 +1,31 @@
+.btn_col {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  flex-direction: column;
+  cursor: pointer;
+  transition: 0.5s all;
+}
+
+.container:hover{
+    transform: scale(1.1);
+}
+
+.container img {
+  height: 100px;
+  object-fit: contain;
+}
+
+.container h4 {
+  font-size: 28px;
+  margin-top: 30px;
+  color: rgb(0 0 0);
+  text-align: center;
+}

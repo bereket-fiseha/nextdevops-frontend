@@ -1,0 +1,69 @@
+.page_title_area {
+  position: relative;
+  background-image: url(../image/page-banner-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  position: relative;
+}
+
+.page_title_area::before {
+  content: "";
+  background-color: #2629b2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+}
+
+.page_title_content {
+  text-align: center;
+  position: relative;
+}
+
+.page_title_content h2 {
+  margin-bottom: 0;
+  color: #ffffff;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.page_title_content ul {
+  padding-left: 0;
+  list-style-type: none;
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+
+.page_title_content ul li {
+  color: #ffffff;
+  display: inline-block;
+  position: relative;
+  font-weight: 400;
+  font-size: 17px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.page_title_content ul li a {
+  display: inline-block;
+  color: #ffffff;
+}
+
+.page_title_content ul li::before {
+  content: "";
+  position: absolute;
+  right: -18px;
+  top: 11px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #48e948;
+}
+
+.page_title_content ul li:last-child::before {
+  display: none;
+}

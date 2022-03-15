@@ -1,0 +1,68 @@
+.bg_inner {
+  position: relative;
+  left: 50%;
+  margin-top: -100px;
+  transform: translate(-50%, 0);
+  height: 30%;
+  width: 80%;
+  background-color: #d3d3d3;
+  padding: 40px;
+  text-align: center;
+  border-radius: 20px;
+  z-index: 100;
+  box-shadow: 0 8px 26px 0 rgb(0 0 0 / 8%);
+  -webkit-box-shadow: 0 8px 26px 0 rgb(0 0 0 / 8%);
+  margin-bottom: 50px;
+}
+.bg_inner h1 {
+  margin-top: 0 !important;
+  font-size: 4em;
+  text-shadow: 4px 4px 15px rgba(150, 150, 150, 0.7);
+  font-weight: bolder;
+  color: #ffd;
+}
+.bg_inner h2 {
+  margin: 50px auto;
+  font-size: 3em;
+  text-shadow: 4px 4px 12px rgba(150, 150, 150, 5);
+  color: #000;
+  font-weight: 900;
+}
+.btn_col {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+}
+
+/*For 1300 Viewport*/
+@media screen and (max-width: 1300px) {
+  .bg_inner h1 {
+    font-size: 3em;
+  }
+  .bg_inner h2 {
+    font-size: 3em;
+  }
+}
+
+/*For 960 ViewPort*/
+@media screen and (max-width: 960px) {
+  .bg_inner {
+    margin-top: -50px;
+    margin-bottom: 0px;
+  }
+  .bg_inner h1 {
+    font-size: 2em;
+  }
+  .bg_inner h2 {
+    font-size: 2em;
+  }
+}
+
+/*For 720 ViewPort*/
+@media screen and (max-width: 720px) {
+  .bg_inner {
+    margin-top: -20px;
+    margin-bottom: 0px;
+  }
+}

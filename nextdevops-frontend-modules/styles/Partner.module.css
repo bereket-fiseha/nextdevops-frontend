@@ -1,0 +1,15 @@
+.partner_section {
+  line-height: 1;
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.partner_section .partner-slider .partner-item {
+  text-align: center;
+}
+
+.partner_section .partner-slider .partner-item img {
+  display: inline-block;
+  margin: auto;
+}

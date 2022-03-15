@@ -1,0 +1,23 @@
+@font-face {
+  font-family: AAutoSignature;
+  src: url(./fonts/AAutoSignature-1GD9j.ttf);
+}
+
+@font-face {
+  font-family: BrittanySignature;
+  src: url(./fonts/BrittanySignature-MaZx.ttf);
+}
+
+@font-face {
+  font-family: BrothersideSignature;
+  src: url(./fonts/BrothersideSignature-w13o6.otf);
+}
+
+@font-face {
+  font-family: SevenDaySignature;
+  src: url(./fonts/SevenDaySignature-RpKO3.otf);
+}
+
+.sigCanvas {
+  border: 1px solid rgb(153, 153, 153);
+}

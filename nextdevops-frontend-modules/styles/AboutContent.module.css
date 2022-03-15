@@ -1,0 +1,87 @@
+.learn_more_button_style {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.about_section {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.about_section img {
+  width: 100%;
+}
+
+.about_area_content span {
+  font-size: 16px;
+  color: #07790d;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.about_area_content h3 {
+  font-size: 38px;
+  color: #202647;
+  font-weight: bold;
+  margin: 0 0 25px;
+  position: relative;
+  padding-bottom: 25px;
+}
+
+.about_area_content h3::before {
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 80px;
+  background-color: #c5faa2;
+  bottom: 0;
+  left: 0;
+}
+
+.about_area_content h3::after {
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 32px;
+  background-color: #15e95c;
+  bottom: 0;
+  margin: 0 auto 0;
+  left: 95px;
+}
+
+.about_area_content p {
+  margin: 15px 0 0 0;
+}
+
+.about_area_content strong {
+  color: #6a6c72;
+  font-weight: 500;
+}
+
+.single_info {
+  position: relative;
+  margin-top: 18px;
+}
+
+.single_info h3 {
+  position: relative;
+  color: #474545;
+  margin-bottom: 0;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.single_info h3 .sign-icon {
+  display: inline-block;
+  font-size: 35px;
+  margin-left: 5px;
+  color: #ff724e;
+}
+
+.single_info p {
+  line-height: initial;
+  margin: 6px 0 0 0;
+  font-weight: 500;
+}

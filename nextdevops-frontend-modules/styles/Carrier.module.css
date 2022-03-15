@@ -1,0 +1,107 @@
+.saletax .css-yk16xz-control {
+  width: 50px;
+  display: "d-flex";
+  background-color: black;
+  border: 2px solid #15e95c;
+}
+.MC_number {
+  display: inline-block;
+  flex-direction: column;
+}
+
+.carrierOperation {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-right: 20px
+}
+
+.header {
+  width: 100%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.center {
+  display: flex;
+  padding-top: 120px;
+  flex-direction: column;
+  height: 100vh;
+  background-color: currentColor;
+  padding-left: 50px;
+}
+
+.carrierDetails {
+  color: white;
+  text-transform: capitalize;
+}
+
+#outlined-helperText-label {
+  color: "white" !important;
+}
+
+.carrierDetails > div {
+  border: 1px solid greenyellow;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.carrier_quote_header {
+  color: #15e95c;
+  margin: 100px 0 20px 0;
+}
+
+.shipper_details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 2px greenyellow solid;
+  padding: 10px;
+}
+
+.shipper_details > div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.postHeader {
+  background-color: black;
+  width: 100%;
+  color: #15e95c;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.available_quotes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote_details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 110px;
+  cursor: pointer;
+}
+
+.indi_quotes {
+  border-bottom: 1px solid blue;
+}
+
+.carrier_quote_total {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 12px;
+}
+
+.price_label {
+  padding-right: 12px;
+}

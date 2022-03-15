@@ -1,0 +1,228 @@
+.navBlack {
+  background: #333;
+  max-height: 70px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+.navBlack img {
+  width: 200px;
+  object-fit: contain;
+}
+
+.nav {
+  min-height: 100px;
+}
+
+.nav a,
+.nav a:active {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+/* sidebar css start */
+.pagesContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #262626;
+  padding-top: 130px;
+  opacity: 0.8;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #8080803d;
+}
+
+.chartRow {
+  display: flex;
+  justify-content: center;
+}
+
+.root {
+  display: "flex";
+}
+
+.content {
+  flex-grow: 1;
+  margin-left: 240px;
+}
+.contentShift {
+  margin-left: 0;
+}
+.menuButton {
+  margin-right: 16px;
+  color: #ffffff !important;
+  z-index: 1100;
+}
+.hide {
+  display: "none";
+}
+.drawer {
+  width: 240px;
+  flex-shrink: 0;
+  z-index: 1200;
+}
+
+.drawerPaper::-webkit-scrollbar {
+  display: none;
+}
+
+.drawerPaper {
+  color: #92d050 !important;
+  width: 20%;
+  position: relative;
+  background-color: #000 !important;
+  padding-top: 0px;
+  white-space: nowrap;
+  padding-bottom: 32px;
+  min-width: 250px;
+  overflow-y: scroll;
+  box-shadow: 4px 7px 14px #00000078 !important;
+}
+.drawerHeader {
+  display: flex;
+  align-items: center;
+  padding: 2em 0.5em;
+  justify-content: center;
+  background-color: #8b8b8b3b;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+.sidebarMenu {
+  width: 100%;
+  display: flex;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  justify-content: flex-start;
+  text-decoration: none;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.menuItem.active {
+  background-color: red;
+}
+.menuItem.active .MuiListItemIcon-root {
+  color: #fff;
+}
+.userIcon {
+  width: 3em !important;
+  height: 3em !important;
+}
+.userText {
+  margin-top: 7px !important;
+  font-weight: bold !important;
+  color: white !important;
+  text-transform: capitalize !important;
+}
+
+.iconRight {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.backdrop {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1050 !important;
+  left: 0;
+  top: 0;
+  background-color: rgba(146, 208, 80, 0.2);
+}
+
+.activeItem {
+  background-color: #557039;
+}
+.activeRootItem {
+  /* background-color: #3F5A23; */
+  background-color: red;
+}
+
+/* Dashboard CSS start*/
+.welcomeTxt {
+  color: #fff;
+  font-size: 36px;
+  border: 1px solid #7fda56;
+  padding: 12px 20px;
+  box-shadow: 6px 5px 13px #7fda5670;
+}
+.chartCanvasBG {
+  padding: 0 30px;
+  position: relative;
+  height: 65vh;
+  width: 45vw;
+}
+
+.chartCanvasBG canvas {
+  /* width:100% !important;
+  height:600px !important; */
+  background-color: #404040;
+}
+
+.ptHunderd {
+  padding-top: 100px;
+}
+.pbHunderd {
+  padding-bottom: 80px;
+}
+.pt80 {
+  padding-top: 60px;
+}
+
+/* Dashboard CSS start*/
+
+/* background-color: #3F5A23; */
+@media (max-width: 1400px) {
+  .drawerPaper {
+    min-width: 300px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .chartCanvasBG {
+    padding: 0 30px;
+    position: relative;
+    height: 38vh;
+    width: 90vw;
+  }
+  .chartRow {
+    flex-direction: column;
+  }
+  .chartMb {
+    margin-bottom: 80px;
+  }
+  .pt80 {
+    padding-top: 80px;
+  }
+}
+@media (max-width: 991.98px) {
+  .chartMb {
+    margin-bottom: 30px;
+  }
+  .pt80 {
+    padding-top: 30px;
+  }
+  .chartCanvasBG {
+    padding: 0 15px;
+    position: relative;
+    height: 59vh;
+    width: 100vw;
+  }
+  .mobPt0 {
+    padding-top: 60px;
+  }
+}
+
+/* sidebar css end */

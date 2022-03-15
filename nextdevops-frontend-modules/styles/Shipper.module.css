@@ -1,0 +1,102 @@
+.center {
+  display: flex;
+  padding-top: 120px;
+  flex-direction: column;
+  height: 100vh;
+  background-color: currentColor;
+  padding-left: 50px;
+  background: white;
+}
+
+.shipperDetails {
+  color: white;
+  text-transform: capitalize;
+}
+
+#outlined-helperText-label {
+  color: "white" !important;
+}
+
+.shipperDetails > div {
+  /* border: 1px solid greenyellow; */
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.address {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  /* border: 2px solid greenyellow; */
+}
+.address_header {
+  text-align: center;
+  padding-bottom: 12px;
+}
+.postHeader {
+  /* background-color: black; */
+  width: 100%;
+  /* color: #15e95c; */
+  display: flex;
+  flex-direction: column;
+  /* padding-left: 20px; */
+}
+
+.shippingItem {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid greenyellow; */
+  padding: 10px;
+}
+
+.dimentions {
+  /* border: 2px solid greenyellow; */
+  margin-top: 10px;
+  /* padding: 10px; */
+}
+
+.dropdown {
+  /* color: #15e95c;
+  background-color: black; */
+}
+
+.root {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.RFQuote_header {
+  /* color: #15e95c; */
+  margin: 100px 0 20px 0;
+}
+
+.multiItems {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid;
+  padding: 8px;
+}
+
+.table > * {
+  border: 1px solid green;
+}
+
+.info {
+  color: red;
+}
+.form-control {
+  border: 2px solid red;
+}
+
+.invalid {
+  display: block !important;
+  color: red;
+}
+
+.find_carrier {
+  display: flex;
+  flex-direction: column;
+  margin-top: 120px;
+  margin-bottom: 20px;
+}
